@@ -43,6 +43,14 @@ export function NavBar() {
                             <li onclick="$.navBarControl(true)"> <visage-link path="/yatak">Yatak odası</visage-link> </li>
                             
                         </div>
+
+                        <div class="d-block d-sm-none ml-2">
+                            <visage-link onclick="$.navBarControl(true)" path="/mutfak">Mutfak Dolapları</visage-link>
+                            <visage-link onclick="$.navBarControl(true)" path="/banyo">Banyo Dolapları</visage-link>
+                            <visage-link onclick="$.navBarControl(true)" path="/ofis">Ofis Dolapları</visage-link>
+                            <visage-link onclick="$.navBarControl(true)" path="/cocuk">Çocuk odası</visage-link>
+                            <visage-link onclick="$.navBarControl(true)" path="/yatak">Yatak odası</visage-link>
+                        </div>
                     </div>
                     <div>
                         <div class="label" onclick="$.navBarControl(true)">
