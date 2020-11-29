@@ -1,9 +1,14 @@
 .nav-bar {
-    box-shadow: 0 0 20px var(--shadow);
+    border-bottom: 1px solid var(--line);
     padding: 0.3em 0.3em 0.3em 1em;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+    background: white;
 }
 
 .nav-bar .right i {

@@ -1,12 +1,11 @@
 import PopUpFoo from '../foo/index.js'
+import { setCss } from '../static/tools.js'
 
 export const PopUp = () => {
-    $['popUpClose'] = () => {
-        PopUpFoo.methods.closePopUp()
-    }
+    $['popUpClose'] = () => setCss('.pop-up', {display: "none"})
 
     return (/*html*/`
-        <div f-class="mode">
+        <div class="pop-up">
             <i class="fa fa-close float-right" onclick="$.popUpClose()"></i>
             <h4>
                 Ecmel Mobilya, Bize ulaşmak için 

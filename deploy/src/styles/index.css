@@ -6,6 +6,10 @@
     --pop-up: #344C5C;
 }
 
+visagerouter {
+    width: 100%;
+}
+
 visage-link {
     cursor: pointer;
 }
@@ -45,6 +49,8 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .modal-map .shadow {
@@ -59,16 +65,4 @@ a:hover {
     width: 100%;
     height: auto;
     border-radius: 20px;
-}
-
-.close {
-    opacity: 0;
-    visibility: hidden;
-    transition: 0.2s; /* animasyon süresi gecikmesi vb. */
-}
-
-.open {
-    opacity: 1;
-    visibility: visible;
-    transition: 0.3s; 
 }

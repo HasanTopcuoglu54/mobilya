@@ -2,9 +2,6 @@ import { MapModal } from './map-modal.js'
 import PopUp from '../foo/index.js'
 
 export function Footer() {
-    $['mapModalControl'] = (mode) => {
-        PopUp.methods.controlMapModal(mode)
-    }
 
     return (/*html*/`
         <footer class="row m-0">

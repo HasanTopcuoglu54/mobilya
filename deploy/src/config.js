@@ -4,7 +4,8 @@ const settings = {
         { rel: "stylesheet", fileName: "intro-page.css" },
         { rel: "stylesheet", fileName: "index.css" },
         { rel: "stylesheet", fileName: "nav-bar.css" },
-        { rel: "stylesheet", fileName: "footer.css" }
+        { rel: "stylesheet", fileName: "footer.css" },
+        { rel: "stylesheet", fileName: "slider.css" }
     ],
     links: []
 }
