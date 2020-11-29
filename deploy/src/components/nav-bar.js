@@ -45,11 +45,11 @@ export function NavBar() {
                         </div>
 
                         <div class="d-block d-sm-none ml-2">
-                            <visage-link onclick="$.navBarControl(true)" path="/mutfak">Mutfak Dolapları</visage-link>
-                            <visage-link onclick="$.navBarControl(true)" path="/banyo">Banyo Dolapları</visage-link>
-                            <visage-link onclick="$.navBarControl(true)" path="/ofis">Ofis Dolapları</visage-link>
-                            <visage-link onclick="$.navBarControl(true)" path="/cocuk">Çocuk odası</visage-link>
-                            <visage-link onclick="$.navBarControl(true)" path="/yatak">Yatak odası</visage-link>
+                            <visage-link onclick="$.navBarControl(true)" path="/mutfak">Mutfak Dolapları</visage-link> <br/>
+                            <visage-link onclick="$.navBarControl(true)" path="/banyo">Banyo Dolapları</visage-link> <br/>
+                            <visage-link onclick="$.navBarControl(true)" path="/ofis">Ofis Dolapları</visage-link> <br/>
+                            <visage-link onclick="$.navBarControl(true)" path="/cocuk">Çocuk odası</visage-link> <br/>
+                            <visage-link onclick="$.navBarControl(true)" path="/yatak">Yatak odası</visage-link> <br/>
                         </div>
                     </div>
                     <div>
