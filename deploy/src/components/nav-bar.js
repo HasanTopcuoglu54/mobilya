@@ -24,27 +24,30 @@ export function NavBar() {
                 <div class="nav-bar-container col-xl-6 col-md-5 col-sm-12">
                     <i class="material-icons close-icon" onclick="$.navBarControl(true)"> close </i>
                     <div>
-                        <div class="label">
+                        <div class="label" onclick="$.navBarControl(true)">
                             <i class="material-icons"> home </i>
-                            Anasayfa
+                            <visage-link path="/">Anasayfa</visage-link>
                         </div>
                     </div>
                     <div>
-                        <div class="label">
+                        <div class="label" onclick="$.navBarControl(true)">
                             <i class="material-icons"> event_seat </i>
-                            Mobilyalar
+                            <visage-link path="/mobilyalar">Mobilyalar</visage-link>
                         </div>
 
                         <div class="more">
-                            <li> Mutfak dolapları </li>
-                            <li> Yatak odası </li>
-                            <li> Çocuk odası </li>
+                            <li onclick="$.navBarControl(true)"> <visage-link path="/mutfak">Mutfak Dolapları</visage-link> </li>
+                            <li onclick="$.navBarControl(true)"> <visage-link path="/banyo">Banyo Dolapları</visage-link> </li>
+                            <li onclick="$.navBarControl(true)"> <visage-link path="/ofis">Ofis Dolapları</visage-link> </li>
+                            <li onclick="$.navBarControl(true)"> <visage-link path="/cocuk">Çocuk odası</visage-link> </li>
+                            <li onclick="$.navBarControl(true)"> <visage-link path="/yatak">Yatak odası</visage-link> </li>
+                            
                         </div>
                     </div>
                     <div>
-                        <div class="label">
+                        <div class="label" onclick="$.navBarControl(true)">
                             <i class="material-icons"> contact_phone </i>
-                            İletişim
+                            <a href="#footer"> İletişim </a>
                         </div>
                     </div>
                 </div>

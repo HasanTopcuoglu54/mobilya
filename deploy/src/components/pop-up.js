@@ -19,10 +19,9 @@ export const PopUp = () => {
                     position: fixed;
                     right: 1em;
                     top: 4em;
-                    border-radius: 15px;
+                    border-radius: 5px;
                     padding: 0.7em;
                     color: white;
-                    box-shadow: 0 0 30px var(--shadow);
                     max-width: 80%;
                     z-index: 3;
                 }

@@ -4,9 +4,9 @@ import PopUp from '../foo/index.js'
 export function Footer() {
 
     return (/*html*/`
-        <footer class="row m-0">
+        <footer class="row m-0" id="footer">
             <div class="left col-xl-4 col-md-6 col-sm-12">
-                <img src="../src/assets/logo.png" class="w-50 mb-4"/>
+                <img src="../src/assets/logo.png" class="w-75 mb-4"/>
                 <div>
                     <li> Adres: Altınova Mahallesi Yılmaz Sokak no:9 Sakarya/Serdivan </li>
                     <li> Telefon: 0531 544 7798 </li>
@@ -20,10 +20,11 @@ export function Footer() {
                 <ul>
                     <li> <visage-link path="/"> Anasayfa </visage-link> </li>
                     <li> <visage-link path="/mobilyalar"> Mobilyalar </visage-link> </li>
-                    <li> <visage-link path="/mobilyalar"> Mutfak Dolapları </visage-link> </li>
-                    <li> <visage-link path="/mobilyalar"> Yatak Odası </visage-link> </li>
-                    <li> <visage-link path="/mobilyalar"> Çocuk Odası </visage-link> </li>
-                    <li> <visage-link path="/iletişim"> İletişim </visage-link> </li>
+                    <li> <visage-link path="/mutfak"> Mutfak Dolapları </visage-link> </li>
+                    <li> <visage-link path="/banyo"> Banyo Dolapları </visage-link> </li>
+                    <li> <visage-link path="/ofis"> Ofis Dolapları </visage-link> </li>
+                    <li> <visage-link path="/yatak"> Yatak Odası </visage-link> </li>
+                    <li> <visage-link path="/cocuk"> Çocuk Odası </visage-link> </li>
                 </ul>
             </div>
             <div class="right col-xl-4 col-md-6 col-sm-12">

@@ -35,10 +35,25 @@ footer .left a:hover {
 
 footer .center visage-link {
     transition: 0.2s;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 0.2em;
+    border-left: 2px solid orange;
+    padding-left: 0.3em;
+}
+footer .center visage-link:hover
+{
+    color:orangered;
+}
+
+
+footer .center li {
+    list-style-type: none;
+    margin-top: 1em;
 }
 
 footer .center visage-link:hover {
-    padding-left: 0.5em;
+    padding-left: 0.6em;
 }
 
 footer .right img {
